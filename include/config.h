@@ -1,0 +1,11 @@
+#ifndef MOCKSTAR_CONFIG_H
+#define MOCKSTAR_CONFIG_H
+
+#define PROJECT_NAME ""
+#define PROJECT_VER  ""
+#define PROJECT_VER_MAJOR ""
+#define PROJECT_VER_MINOR ""
+#define PROJECT_VER_PATCH ""
+
+#endif // MOCKSTAR_CONFIG_H
+

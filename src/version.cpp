@@ -1,5 +1,5 @@
 #include <stdint.h>
-#include "mockstar/config.h"
+#include "config.h"
 #include "mockstar/version.h"
 #include "mockstar/internal/utility.h"
 

@@ -15,6 +15,7 @@ configure_file(
 # ----------------------------------------
 add_library(mockstar
   src/version.cpp
+  src/fuzzer.cpp
   src/utility.cpp
 )
 
@@ -32,6 +33,7 @@ target_sources(mockstar
     BASE_DIRS include
     FILES
       include/mockstar/version.h
+      include/mockstar/fuzzer.h
 )
 
 install(TARGETS mockstar FILE_SET mockstar)

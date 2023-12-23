@@ -5,7 +5,7 @@ in
   with pkgs;
   stdenv.mkDerivation {
     pname = "mockstar";
-    version = "0.0.1";
+    version = "0.0.2";
 
     src = ./.;
 
@@ -20,7 +20,9 @@ in
     # patchPhase = '' '';
 
     buildPhase = ''
+      #env
       make mockstar
+      #ls -lR 
     '';
 
     # checkPhase = '' '';
@@ -30,6 +32,8 @@ in
       cp libmockstar.so $out/lib/libmockstar.so
       mkdir -p $out/include
       cp -pra include/* $out/include/
+      rm $out/include/config.h
+      rm -rf $out/include/mockstar/internal
     '';
 
   }

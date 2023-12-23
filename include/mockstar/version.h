@@ -10,7 +10,6 @@ const char* version();
 uint32_t ver_major();
 uint32_t ver_minor();
 uint32_t ver_patch();
-
 #ifdef __cplusplus
 }
 #endif
