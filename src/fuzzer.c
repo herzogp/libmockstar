@@ -1,10 +1,10 @@
-#include <cstdbool>
-#include <cstdint>
-#include <cstdio>
-#include <cstddef>
-#include <cstdlib>
-#include <cstdint>
-#include <cstring>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stddef.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <string.h>
 #include <mockstar/fuzzer.h>
 #include <mockstar/internal/utility.h>
 
@@ -34,7 +34,7 @@ fuzz_json_data(const char *data, size_t size) {
 
 uint64_t
 fuzz_get_random() {
-  return (uint64_t)std::rand();
+  return (uint64_t)rand();
 }
 
 void

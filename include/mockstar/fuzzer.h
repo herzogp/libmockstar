@@ -1,7 +1,7 @@
 #ifndef MOCKSTAR_FUZZER_H
 #define MOCKSTAR_FUZZER_H
 
-#include <cstdint>
+#include <stdint.h>
 
 #ifdef __cplusplus
 extern "C" {
