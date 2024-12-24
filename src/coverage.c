@@ -1,9 +1,9 @@
-#include <cstdint>
-#include <cstdio>
-#include <cstddef>
-#include <cstdlib>
-#include <cstdint>
-#include <cstring>
+#include <stdint.h>
+#include <stdio.h>
+#include <stddef.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <string.h>
 #include <mockstar/coverage.h>
 
 uint64_t

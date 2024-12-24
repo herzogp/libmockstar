@@ -1,7 +1,7 @@
 #ifndef MOCKSTAR_COVERAGE_H
 #define MOCKSTAR_COVERAGE_H
 
-#include <cstdint>
+#include <stdint.h>
 
 #ifdef __cplusplus
 extern "C" {

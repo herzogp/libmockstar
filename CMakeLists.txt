@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.25)
-project(adk-mock VERSION $ENV{version} LANGUAGES CXX)
+project(adk-mock VERSION $ENV{version} LANGUAGES C)
 
 configure_file(
   "${PROJECT_SOURCE_DIR}/config.h.in" 
@@ -14,10 +14,10 @@ configure_file(
 # SHARED (.so) library
 # ----------------------------------------
 add_library(mockstar
-  src/version.cpp
-  src/fuzzer.cpp
-  src/coverage.cpp
-  src/utility.cpp
+  src/version.c
+  src/fuzzer.c
+  src/coverage.c
+  src/utility.c
 )
 
 target_include_directories(mockstar 
